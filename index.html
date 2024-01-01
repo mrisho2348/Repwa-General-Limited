@@ -1,771 +1,807 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <!-- bootstrap link  -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <!-- carousel link  -->
-  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-  <!-- font awesome link/ icon   -->
-  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-<section>
-      <div id="topbar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- bootstrap link  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- carousel link  -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <!-- font awesome link/ icon   -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <section>
+      <div id="topbar" class="bg-dark text-white">
         <div class="container">
           <div class="row">
             <div class="col-md-9">
-              <ul class="top-contact">
-                <li><a href=""><i class="fas fa-phone"></i>+255657315955</a></li>
-                <li><a href=""><i class="fas fa-envelope"></i>mrishohamisi2348@gmail.com</a></li>
-                <li><a href=""><i class="fas fa-bullhorn"></i>tanzania dar es salam</a></li>
-              </ul>       
+              <ul class="top-contact list-unstyled m-0 d-flex">
+                <li class="mb-2 mb-md-0">
+                  <a href=""><i class="fas fa-phone"></i>+255657315955</a>
+                </li>
+                <li class="mb-2 mb-md-0">
+                  <a href=""><i class="fas fa-envelope"></i>mrishohamisi2348@gmail.com</a>
+                </li>
+                <li>
+                  <a href=""><i class="fas fa-bullhorn"></i>tanzania dar es salam</a>
+                </li>
+              </ul>
             </div>
-            <div class="col-3">
-              <ul class="sosmed">
-                <li><a href=""><i  class="fab fa-facebook-f"></i></a></li>
-                <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                <li><a href="" ><i class="fab fa-youtube"></i></a></li>
-                <li><a href=""><i  class="fab fa-twitter"></i></a></li>
+            <div class="col-md-3 d-flex justify-content-end">
+              <ul class="sosmed list-unstyled m-0 d-flex">
+                <li class="mr-2">
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="mr-2">
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="mr-2">
+                  <a href=""><i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                </li>
               </ul>
             </div>
           </div>
         </div>
-    </div>
-</section>
-  <header>
-    <div class="container">
-        <div class="row">
+      </div>
+    </section>
+    
+    <header class="bg-light">
+      <div class="container">
+        <div class="row align-items-center">
           <div class="col-md-8">
-            <div class="brand">
-              <img src="assets/img/logo-toga.png" alt="">
+            <div class="brand d-flex align-items-center">
+              <img src="assets/img/RepwaLogo.jpg" alt="Repwa Logo" width="100" height="100" class="mr-3" />
               <div class="brand-name">
-                <h1>sumait university zanzibar</h1>
-                <h3>appears to be a specific educational institution located in Zanzibar, Tanzania.
-                </h3>
+                <h1 class="mb-1">Repwa General Tanzania Limited</h1>
+                <h3>Your Partner in Technology Solutions</h3>
               </div>
-        
             </div>
           </div>
-          <div class="col-md-4 pembungkus-searchbox">
+          <div class="col-md-4">
             <div class="searchbox">
-              <form action="" method="get">
+              <form action="" method="get" class="mt-3 mt-md-0">
                 <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Search......" 
-                  aria-describedby="my-addon" aria-label="Recipient" name="search">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Search......"
+                    aria-describedby="my-addon"
+                    aria-label="Recipient"
+                    name="search"
+                  />
                   <div class="input-group-append">
                     <button class="btn btn-utama" id="tombol-cari">
-                      search
+                      Search
                     </button>
                   </div>
                 </div>
               </form>
-            </div> 
+            </div>
           </div>
         </div>
-    </div>
-  </header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-biru">
-     <div class="container">     
-      <button class="navbar-toggler" data-target="#my-nav" 
-      data-toggle="collapse" aria-controls="my-nav"
-       aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div id="my-nav" class="collapse navbar-collapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Berand<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a href="" id="my-dropdown" class="nav-link dropdown-toggle" 
-            data-toggle="dropdown"
-             aria-haspopup="true" aria-expanded="false">Profile</a>
-            <div class="dropdown-menu" aria-labelledby="my-dropdown">
-              <a class="dropdown-item " href="#">Serajarah</a>
-              <a class="dropdown-item " href="#">Visi dan Misi</a>
-              <a class="dropdown-item " href="#">Peta Sekolah</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a href="" id="my-dropdown" class="nav-link dropdown-toggle" 
-            data-toggle="dropdown"
-             aria-haspopup="true" aria-expanded="false">saran & parasan</a>
-            <div class="dropdown-menu" aria-labelledby="my-dropdown">            
-              <a class="dropdown-item " href="#">sarah infrastuktur</a>
-              <a class="dropdown-item " href="#">Sarana Pembelarajan</a>
-            </div>
-          </li>
-     
-          <li class="nav-item">
-            <a class="nav-link " href="#" >Ekstrakulikueri</a>         
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#" >Prestasi</a>         
-          </li>
-          <li class="nav-item dropdown">
-            <a href="" id="my-dropdown" class="nav-link dropdown-toggle" 
-            data-toggle="dropdown"
-             aria-haspopup="true" aria-expanded="false">Berita</a>
-            <div class="dropdown-menu" aria-labelledby="my-dropdown">            
-              <a class="dropdown-item " href="#">Berita sekorah</a>
-              <a class="dropdown-item " href="#">Pengumuman</a>
-              <a class="dropdown-item " href="#">Agenda</a>
-              <a class="dropdown-item " href="#">Kalendar Akademic</a>
-            </div>
-          </li>     
-          <li class="nav-item dropdown">
-            <a href="" id="my-dropdown" class="nav-link dropdown-toggle" 
-            data-toggle="dropdown"
-             aria-haspopup="true" aria-expanded="false">Gareli</a>
-            <div class="dropdown-menu" aria-labelledby="my-dropdown">            
-              <a class="dropdown-item " href="#">Galeri Foto</a>
-              <a class="dropdown-item " href="#">Galeri video / document</a>
-            </div>
-          </li>     
-          <li class="nav-item">
-            <a class="nav-link " href="#" >Kontak</a>         
-          </li>
-        </ul>
       </div>
-     </div>
+    </header>
+    
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-biru">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          data-target="#my-nav"
+          data-toggle="collapse"
+          aria-controls="my-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href=""
+                id="my-dropdown"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Services</a
+              >
+              <div class="dropdown-menu" aria-labelledby="my-dropdown">
+                <a class="dropdown-item" href="#">Retail Sales</a>
+                <a class="dropdown-item" href="#">Software Development</a>
+                <a class="dropdown-item" href="#">Consultancy</a>
+                <a class="dropdown-item" href="#">Computer Services</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Client Testimonials</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href=""
+                id="my-dropdown"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >News & Updates</a
+              >
+              <div class="dropdown-menu" aria-labelledby="my-dropdown">
+                <a class="dropdown-item" href="#">Company News</a>
+                <a class="dropdown-item" href="#">Announcements</a>
+                <a class="dropdown-item" href="#">Events</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
     <section id="hero-area">
       <div id="slider-hero-nav"></div>
-        <div class="owl-carousel" id="slider-hero">
-          <div class="slide-item">
-            <div class="slide-item-img">
-              <img src="assets/img/banner-siswa.jpg" alt="">
-            </div>
-            <div class="slider-item-content">
-              <a href=""><h2>Pererimaan peserta Didik Baru TA 2020/2021 Telah Dibuka!</h2></a>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Accusamus quisquam perspiciatis ut, quas praesentium officiis,
-                 earum libero dolorem nemo voluptatibus neque enim laboriosam possimus?
-                  Maiores fuga nulla facilis pariatur quasi cupiditate 
-                  consectetur optio nesciunt blanditiis?
-                   Quia aut cum explicabo est eum aspernatur, 
-              !</p>
-              <a class="btn btn-utama">DAFTAR PPDB</a>
-            </div>
+      <div class="owl-carousel" id="slider-hero">
+        <div class="slide-item">
+          <div class="slide-item-img">
+            <img src="assets/img/banner-siswa.jpg" alt="" />
           </div>
-
-          <div class="slide-item">
-            <div class="slide-item-img">
-              <img src="assets/img/banner-siswa.jpg" alt="">
-            </div>
-            <div class="slider-item-content">
-              <a href=""><h2>Title 2</h2></a>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Accusamus quisquam perspiciatis ut, quas praesentium officiis,
-                 earum libero dolorem nemo voluptatibus neque enim laboriosam possimus?
-                  Maiores fuga nulla facilis pariatur quasi cupiditate 
-                  consectetur optio nesciunt blanditiis?
-                   Quia aut cum explicabo est eum aspernatur, 
-              !</p>
-              <a href="" class="btn btn-utama">CTA button</a>
-            </div>
-
-          </div>
-        </div>        
-    </section>
-
-      <section id="sambutan">
-        <div class="container">
-          <h2>This is beatufiy video explain about our school</h2>
-          <div class="row">
-            <div class="col-md-6">
-             
-                <div class="video-wrapper">
-                  <iframe width="560" height="315" 
-                  src="https://www.youtube.com/embed/9DSMgVG0--8?si=ERLhEsAqA97oURe8"
-                   title="YouTube video player" 
-                   frameborder="0" 
-                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                   allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="col-md-6">
-              <h3>Sambutan Kepala Sekolah</h3>
-              <p>
-                assalam alaykum mrisho Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit. Repudiandae itaque 
-                similique quo quos dolores
-                excepturi asperiores architecto qui ullam ad?
-                assalam alaykum mrisho Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit. Repudiandae itaque 
-                similique quo quos dolores
-                excepturi asperiores architecto qui ullam ad?
-                assalam alaykum mrisho Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit. Repudiandae itaque 
-                similique quo quos dolores
-                excepturi asperiores architecto qui ullam ad?
-              </p>
-              <a href="" class="btn btn-utama">Baca selengkapnya</a>
-            </div>
+          <div class="slider-item-content">
+            <a href="#"><h2>Welcome to Repwa General Tanzania Limited</h2></a>
+            <p>
+              Explore innovative solutions and services tailored for your
+              technological needs. Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Accusamus quisquam perspiciatis ut, quas
+              praesentium officiis, earum libero dolorem nemo voluptatibus neque
+              enim laboriosam possimus? Maiores fuga nulla facilis pariatur
+              quasi cupiditate consectetur optio nesciunt blanditiis? Quia aut
+              cum explicabo est eum aspernatur!
+            </p>
+            <a href="#" class="btn btn-utama">Learn More</a>
           </div>
         </div>
-      </section>
 
-      <section id="prestasi">
-          <div class="container">
-            <div class="section-title">
-              <h2>Prestasi Terbaru</h2>
-            </div>
-            <div class="section-item">
-                <div class="row">
-                  <div class="col-md-6">
-                    <a href=""><img class="section-item-thumbnail" src="assets/img/juara-olimpiade.jpeg" alt=""></a>
-                </div>
-                <div class="col-md-6 col-item-kanan">
-                  <div class="section-item-title">
-                    <h3>Medali Peraki dalam IOI olympiad in informatics/IOI di azerbaijan</h3>
-                    <div class="section-item-meta">
-                        <span>
-                          <i class="far fa-calendar-alt"></i> 20 august, 2023 - 22 august, 2023
-                        </span>
-                        <span><i class="fas fa-map-marked-alt"></i>Baku,Azerbaijan</span>
-                    </div>
-                  </div>
-                  <div class="section-item-body">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
-                       velit qui? Deserunt quas nobis tempora,
-                      praesentium placeat architecto nostrum nesciunt.
-                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                        Delectus deleniti veniam asperiores vitae facere accusamus
-                         ullam beatae atque voluptatem distinctio non, 
-                         inventore molestias exercitationem obcaecati! Blanditiis esse odio unde,
-                          praesentium quam nesciunt sint laudantium non eum officia,
-                           ipsa iusto sapiente. Minima deserunt ipsum,
-                            at suscipit perferendis non
-                       beatae et distinctio!</p>
-                  </div>
-                </div>
-                </div>            
-              
-            </div>
-
-            <div class="section-item">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img class="section-item-thumbnail" src="assets/img/juara-olimpiade.jpeg" alt="">
-                </div>
-                <div class="col-md-6 col-item-kanan">
-                  <div class="section-item-title">
-                    <h3>Medali Peraki dalam IOI olympiad in informatics/IOI di azerbaijan</h3>
-                    <div class="section-item-meta">
-                        <span>
-                          <i class="far fa-calendar-alt"></i> 20 august, 2023 - 22 august, 2023
-                        </span>
-                        <span><i class="fas fa-map-marked-alt"></i>Baku,Azerbaijan</span>
-                    </div>
-                  </div>
-                  <div class="section-item-body">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                       Deleniti necessitatibus facilis odio asperiores rerum libero adipisci 
-                       repellendus eaque modi obcaecati similique vero itaque nobis incidunt, 
-                       iusto quia illo officia voluptate reprehenderit illum animi
-                        temporibus iste tempora. Vitae iusto nihil quo ea veritatis 
-                      corrupti quasi blanditiis ad! Odit qui odio non!</p>
-                  </div>
-                </div>
-                </div>            
-              
-            </div>
-
-            <div class="section-item">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img class="section-item-thumbnail" src="assets/img/juara-olimpiade.jpeg" alt="">
-                </div>
-                <div class="col-md-6 col-item-kanan">
-                  <div class="section-item-title">
-                    <h3>Medali Peraki dalam IOI olympiad in informatics/IOI di azerbaijan</h3>
-                    <div class="section-item-meta">
-                        <span>
-                          <i class="far fa-calendar-alt"></i> 20 august, 2023 - 22 august, 2023
-                        </span>
-                        <span><i class="fas fa-map-marked-alt"></i>Baku,Azerbaijan</span>
-                    </div>
-                  </div>
-                  <div class="section-item-body">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                       Deleniti necessitatibus facilis odio asperiores rerum libero adipisci 
-                       repellendus eaque modi obcaecati similique vero itaque nobis incidunt, 
-                       iusto quia illo officia voluptate reprehenderit illum animi
-                        temporibus iste tempora. Vitae iusto nihil quo ea veritatis 
-                      corrupti quasi blanditiis ad! Odit qui odio non!</p>
-                  </div>
-                </div>
-                </div>            
-              
-            </div>
-            <div class="tombol-selengkapnya">
-              <a href="" class="btn btn-more">
-                Lihat Prestasi Lainny
-              </a>
-            </div>
+        <div class="slide-item">
+          <div class="slide-item-img">
+            <img src="assets/img/banner-siswa.jpg" alt="" />
           </div>
-      </section>
-
-      <section id="ekstrakulikuler">
-        <div class="container">
-          <div class="section-title">
-            <h2>Ekstrakulikuler</h2>
+          <div class="slider-item-content">
+            <a href="#"><h2>Empowering Your Business with Technology</h2></a>
+            <p>
+              Discover our cutting-edge services and solutions designed to
+              elevate your business. Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Accusamus quisquam perspiciatis ut, quas
+              praesentium officiis, earum libero dolorem nemo voluptatibus neque
+              enim laboriosam possimus? Maiores fuga nulla facilis pariatur
+              quasi cupiditate consectetur optio nesciunt blanditiis? Quia aut
+              cum explicabo est eum aspernatur!
+            </p>
+            <a href="#" class="btn btn-utama">Explore Services</a>
           </div>
-          <div class="section-body">
-            <div class="row ">
-              <div class="col-md-4">
-                <div class="section-body-item">
-                    <div class="row row-2">
-                      <div class="col-md-3">
-                          <i class="far fa-user"></i>
-                      </div>
-                      <div class="col-md-9">
-                        <h4>Praja Muda Karanan(Pramuka)</h4>
-                      </div>
-                    </div>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="section-body-item">
-                  <div class="row row-2">
-                    <div class="col-md-3">
-                        <i class="far fa-user"></i>
-                    </div>
-                    <div class="col-md-9">
-                      <h4>Palang Merah Remaja(PRM)</h4>
-                    </div>
-                  </div>
-              </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="section-body-item">
-                  <div class="row row-2">
-                    <div class="col-md-3">
-                        <i class="far fa-user"></i>
-                    </div>
-                    <div class="col-md-9">
-                      <h4>Olimpiade Sains</h4>
-                    </div>
-                  </div>
-              </div>
-              </div>            
-            </div>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="section-body-item">
-                  <div class="row row-2">
-                    <div class="col-md-3">
-                        <i class="far fa-user"></i>
-                    </div>
-                    <div class="col-md-9">
-                      <h4>Pecinta Alama</h4>
-                    </div>
-                  </div>
-              </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="section-body-item">
-                  <div class="row row-2">
-                    <div class="col-md-3">
-                        <i class="far fa-user"></i>
-                    </div>
-                    <div class="col-md-9">
-                      <h4>Karya Ilmiah Remaja</h4>
-                    </div>
-                  </div>
-              </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="section-body-item">
-                  <div class="row row-2">
-                    <div class="col-md-3">
-                        <i class="far fa-user"></i>
-                    </div>
-                    <div class="col-md-9">
-                      <h4>Praja Muda Karanan(Pramuka)</h4>
-                    </div>
-                  </div>
-              </div>
-              </div>
-            </div>
-          </div>
-      </div>
-      </section>
-
-      <section id="tenaga-pendidik">
-            <div class="container">
-              <div class="section-title">
-                  <h2>Tenaga Pendid</h2>
-              </div>  
-                 <div class="section-body">
-                  <div id="slider-tools-1"></div>        
-                  <div class="owl-carousel" id="tenaga-pendidit-slider">
-                      <div class="section-item-slider">
-                          <img class="foto-guru" src="assets/img/foto-guru-1.jpg" alt="">
-                            <div class="section-item-caption">
-                              <h5>SARNO, s.pd., M.pd</h5>
-                              <h6>GURU BAHASA INDONESIA</h6>
-                            </div>
-                      </div>
-                      <div class="section-item-slider">
-                          <img class="foto-guru" src="assets/img/foto-guru-2.jpg" alt="">
-                            <div class="section-item-caption">
-                              <h5>Dr nassor ali hamza</h5>
-                              <h6>BG student at sumait university</h6>
-                            </div>
-                      </div>
-                      <div class="section-item-slider">
-                          <img class="foto-guru" src="assets/img/foto-guru-3.jpg" alt="">
-                            <div class="section-item-caption">
-                              <h5>Shafour qasim msuya</h5>
-                              <h6>BC student at sumait university</h6>
-                            </div>
-                      </div>
-                  </div>  
-                 </div>   
-                 
-            </div>
-            <div class="tombol-selengkapnya">
-              <a href="" class="btn btn-more">
-                Lihat Prestasi Lainnya
-              </a>
-            </div>
-      </section>
-      
-      <section id="alumni">
-            <div class="container">
-              <div class="section-title">
-                <h2>Profil Alumni</h2>
-              </div>
-              <div class="section-body">
-                <div id="slider-tools-2"></div>
-                  <div class="owl-carousel" id="alumni-slider">
-                      <div class="section-item-slider">
-                        <div class="row">
-                          <div class="col-md-5">
-                            <img class="foto-alumni" src="assets/img/bu-susi-p.jpg" alt="">
-                          </div>
-                          <div class="col-md-7">
-                            <div class="section-item-content">
-                              <a href=""><h3>Dr.(HC) Susi Pudjiastuti</h3></a>
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                Nostrum libero, ut quasi impedit ab praesentium accusantium,
-                                 adipisci officia iure nesciunt perspiciatis sed tenetur quisquam.
-                                 Eum commodi omnis cum dolore eligendi!</p>
-                                 <a href="" class="more">selengkapnya <i class="fas fa-long-arrow-alt-right"></i></a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="section-item-slider">
-                        <div class="row">
-                          <div class="col-md-5">
-                            <img class="foto-alumni" src="assets/img/prof-dwikorita.jpg" alt="">
-                          </div>
-                          <div class="col-md-7">
-                            <div class="section-item-content">
-                              <a href=""><h3>Prof. Dwikorita karnawati, M.Sc., Ph.D</h3></a>
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                Nostrum libero, ut quasi impedit ab praesentium accusantium,
-                                 adipisci officia iure nesciunt perspiciatis sed tenetur quisquam.
-                                 Eum commodi omnis cum dolore eligendi!</p>
-                                 <a href="" class="more">selengkapnya <i class="fas fa-long-arrow-alt-right"></i></a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-              </div>
-            </div>
-      </section >     
-     
-
-
-      <section id="tenaga-pendidik">
-          <div class="container">
-            <div class="section-title">
-                <h2>Galeri/Documentasi</h2>
-            </div>  
-               <div class="section-body">
-                <div id="slider-tools-3"></div>        
-                <div class="owl-carousel" id="galeri-slider">
-                    <div class="section-item-slider">
-                        <img class="foto-guru" src="assets/img/galeri-1.jpg" alt="">
-                          <div class="section-item-caption">
-                           <a href=""> <h5>Kegiatan Outbound 2023</h5></a>
-                            <a href=""><h6>Kaliboyong camp, Pakem</h6></a>
-                          </div>
-                    </div>
-                    <div class="section-item-slider">
-                        <img class="foto-guru" src="assets/img/foto-guru-2.jpg" alt="">
-                          <div class="section-item-caption">
-                            <a href="">
-                              <h5>Album Ujian Nasional 2019</h5>
-                            </a>
-                            <a href=""><h6>SMA N 404 Trainit, wetanprogo</h6></a>
-                          </div>
-                    </div>
-                    <div class="section-item-slider">
-                        <img class="foto-guru" src="assets/img/foto-guru-3.jpg" alt="">
-                          <div class="section-item-caption">
-                           <a href=""> <h5>Video Dokumentasi Reuni Akbar</h5></a>
-                            <a href=""><h6>Gori SMA N 404 Trainit</h6></a>
-                          </div>
-                    </div>
-                </div>  
-               </div>   
-          </div>
-    </section>
-
-    <section>
-      <div class="tombol-selengkapnya">
-        <a href="" class="btn btn-more">
-          Lihat Prestasi Lainnya
-        </a>
+        </div>
       </div>
     </section>
-        
-    <section id="berita">
+
+    <section id="sambutan">
+      <div class="container">
+        <h2>This is beatufiy video explain about our school</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="video-wrapper">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/9DSMgVG0--8?si=ERLhEsAqA97oURe8"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h3>Welcome Message from Repwa Leadership</h3>
+            <p>
+              Assalam alaykum! Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Repudiandae itaque similique quo quos dolores
+              excepturi asperiores architecto qui ullam ad? Assalam alaykum!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae itaque similique quo quos dolores excepturi asperiores
+              architecto qui ullam ad? Assalam alaykum! Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Repudiandae itaque similique
+              quo quos dolores excepturi asperiores architecto qui ullam ad?
+            </p>
+            <a href="#" class="btn btn-utama">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="prestasi">
       <div class="container">
         <div class="section-title">
-            <h2>Berita Terbaru</h2>
+          <h2>Achievements at Repwa General Limited</h2>
         </div>
-        <div class="section-body">
+        <div class="section-item">
           <div class="row">
-            <div class="col-md-4">
-              <div class="section-thumbnail">
-                <a href=""><img src="assets/img/galeri-2.jpeg" alt=""></a>
-                <div class="tangal">
-                  <span class="tgl">14</span>
-                  <span class="tgl-2">oktober 2019</span>
-                </div>
-              </div>
-              <div class="section-content">
-                  <a href="">
-                    <h3>Siswa Teladan Berkurban untuk Nemupuk Kepedulian Sosial</h3>                   
-                  </a>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolorum doloribus facilis provident nam praesentium tempore 
-                    architecto eaque tenetur minima accusamus, esse debitis quisquam,
-                     <a href="" class="more">[...]</a></p>
-              </div>
-              <div class="section-meta">
-                <a href="">Kategori A</a>
-                <a href=""><i class="fas fa-user"></i> Administrator</a>
-              </div>
+            <div class="col-md-6">
+              <a href=""
+                ><img
+                  class="section-item-thumbnail"
+                  src="assets/img/juara-olimpiade.jpeg"
+                  alt=""
+              /></a>
             </div>
-             <div class="col-md-4">
-              <div class="section-thumbnail">
-                <a href=""><img src="assets/img/galeri-2.jpeg" alt=""></a>
-                <div class="tangal">
-                  <span class="tgl">14</span>
-                  <span class="tgl-2">oktober 2019</span>
+            <div class="col-md-6 col-item-kanan">
+              <div class="section-item-title">
+                <h3>Outstanding Performance in International Tech Summit</h3>
+
+                <div class="section-item-meta">
+                  <span>
+                    <i class="far fa-calendar-alt"></i> 20 august, 2023 - 22
+                    august, 2023
+                  </span>
+                  <span
+                    ><i class="fas fa-map-marked-alt"></i>Baku,Azerbaijan</span
+                  >
                 </div>
               </div>
-              <div class="section-content">
-                  <a href="">
-                    <h3>Siswa Teladan Berkurban untuk Nemupuk Kepedulian Sosial</h3>                   
-                  </a>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolorum doloribus facilis provident nam praesentium tempore 
-                    architecto eaque tenetur minima accusamus, esse debitis quisquam,
-                     <a href="" class="more">[...]</a></p>
-              </div>
-              <div class="section-meta">
-                <a href="">Kategori A</a>
-                <a href=""><i class="fas fa-user"></i> Administrator</a>
-              </div>
-            </div>
-             <div class="col-md-4">
-              <div class="section-thumbnail">
-                <a href=""><img src="assets/img/galeri-2.jpeg" alt=""></a>
-                <div class="tangal">
-                  <span class="tgl">14</span>
-                  <span class="tgl-2">oktober 2019</span>
-                </div>
-              </div>
-              <div class="section-content">
-                  <a href="">
-                    <h3>Siswa Teladan Berkurban untuk Nemupuk Kepedulian Sosial</h3>                   
-                  </a>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolorum doloribus facilis provident nam praesentium tempore 
-                    architecto eaque tenetur minima accusamus, esse debitis quisquam,
-                     <a href="" class="more">[...]</a></p>
-              </div>
-              <div class="section-meta">
-                <a href="">Kategori A</a>
-                <a href=""><i class="fas fa-user"></i> Administrator</a>
+              <div class="section-item-body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+                  velit qui? Deserunt quas nobis tempora, praesentium placeat
+                  architecto nostrum nesciunt. Lorem ipsum dolor sit, amet
+                  consectetur adipisicing elit. Delectus deleniti veniam
+                  asperiores vitae facere accusamus ullam beatae atque
+                  voluptatem distinctio non, inventore molestias exercitationem
+                  obcaecati! Blanditiis esse odio unde, praesentium quam
+                  nesciunt sint laudantium non eum officia, ipsa iusto sapiente.
+                  Minima deserunt ipsum, at suscipit perferendis non beatae et
+                  distinctio!
+                </p>
               </div>
             </div>
           </div>
+        </div>
 
+        <div class="section-item">
           <div class="row">
-              <div class="col-md-4">
-              <div class="section-thumbnail">
-                <a href=""><img src="assets/img/galeri-2.jpeg" alt=""></a>
-                <div class="tangal">
-                  <span class="tgl">14</span>
-                  <span class="tgl-2">oktober 2019</span>
+            <div class="col-md-6">
+              <img
+                class="section-item-thumbnail"
+                src="assets/img/juara-olimpiade.jpeg"
+                alt=""
+              />
+            </div>
+            <div class="col-md-6 col-item-kanan">
+              <div class="section-item-title">
+                <h3>Award for Innovation at Repwa Tech Expo</h3>
+
+                <div class="section-item-meta">
+                  <span>
+                    <i class="far fa-calendar-alt"></i> 20 august, 2023 - 22
+                    august, 2023
+                  </span>
+                  <span
+                    ><i class="fas fa-map-marked-alt"></i>Baku,Azerbaijan</span
+                  >
                 </div>
               </div>
-              <div class="section-content">
-                  <a href="">
-                    <h3>Siswa Teladan Berkurban untuk Nemupuk Kepedulian Sosial</h3>                   
-                  </a>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolorum doloribus facilis provident nam praesentium tempore 
-                    architecto eaque tenetur minima accusamus, esse debitis quisquam,
-                     <a href="" class="more">[...]</a></p>
-              </div>
-              <div class="section-meta">
-                <a href="">Kategori A</a>
-                <a href=""><i class="fas fa-user"></i> Administrator</a>
+              <div class="section-item-body">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Deleniti necessitatibus facilis odio asperiores rerum libero
+                  adipisci repellendus eaque modi obcaecati similique vero
+                  itaque nobis incidunt, iusto quia illo officia voluptate
+                  reprehenderit illum animi temporibus iste tempora. Vitae iusto
+                  nihil quo ea veritatis corrupti quasi blanditiis ad! Odit qui
+                  odio non!
+                </p>
               </div>
             </div>
-           <div class="col-md-4">
-              <div class="section-thumbnail">
-                <a href=""><img src="assets/img/galeri-2.jpeg" alt=""></a>
-                <div class="tangal">
-                  <span class="tgl">14</span>
-                  <span class="tgl-2">oktober 2019</span>
-                </div>
-              </div>
-              <div class="section-content">
-                  <a href="">
-                    <h3>Siswa Teladan Berkurban untuk Nemupuk Kepedulian Sosial</h3>                   
-                  </a>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolorum doloribus facilis provident nam praesentium tempore 
-                    architecto eaque tenetur minima accusamus, esse debitis quisquam,
-                     <a href="" class="more">[...]</a></p>
-              </div>
-              <div class="section-meta">
-                <a href="">Kategori A</a>
-                <a href=""><i class="fas fa-user"></i> Administrator</a>
-              </div>
+          </div>
+        </div>
+
+        <div class="section-item">
+          <div class="row">
+            <div class="col-md-6">
+              <img
+                class="section-item-thumbnail"
+                src="assets/img/juara-olimpiade.jpeg"
+                alt=""
+              />
             </div>
-           <div class="col-md-4">
-              <div class="section-thumbnail">
-                <a href=""><img src="assets/img/galeri-2.jpeg" alt=""></a>
-                <div class="tangal">
-                  <span class="tgl">14</span>
-                  <span class="tgl-2">oktober 2019</span>
+            <div class="col-md-6 col-item-kanan">
+              <div class="section-item-title">
+                <h3>Outstanding Recognition at Repwa Innovation Summit</h3>
+
+                <div class="section-item-meta">
+                  <span>
+                    <i class="far fa-calendar-alt"></i> 20 august, 2023 - 22
+                    august, 2023
+                  </span>
+                  <span
+                    ><i class="fas fa-map-marked-alt"></i>Baku,Azerbaijan</span
+                  >
                 </div>
               </div>
-              <div class="section-content">
-                  <a href="">
-                    <h3>Siswa Teladan Berkurban untuk Nemupuk Kepedulian Sosial</h3>                   
-                  </a>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolorum doloribus facilis provident nam praesentium tempore 
-                    architecto eaque tenetur minima accusamus, esse debitis quisquam,
-                     <a href="" class="more">[...]</a></p>
-              </div>
-              <div class="section-meta">
-                <a href="">Kategori A</a>
-                <a href=""><i class="fas fa-user"></i> Administrator</a>
+              <div class="section-item-body">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Deleniti necessitatibus facilis odio asperiores rerum libero
+                  adipisci repellendus eaque modi obcaecati similique vero
+                  itaque nobis incidunt, iusto quia illo officia voluptate
+                  reprehenderit illum animi temporibus iste tempora. Vitae iusto
+                  nihil quo ea veritatis corrupti quasi blanditiis ad! Odit qui
+                  odio non!
+                </p>
               </div>
             </div>
           </div>
         </div>
         <div class="tombol-selengkapnya">
-          <a href="" class="btn btn-more">
-            Lihat Berita Lainnya
-          </a>
+          <a href="" class="btn btn-more"> Explore More Achievements </a>
         </div>
-    </div>    
+      </div>
     </section>
-  
+
+    <section id="ekstrakulikuler">
+      <div class="container">
+        <div class="section-title">
+          <h2>Repwa's Vibrant Extracurricular Activities</h2>
+        </div>
+        <div class="section-body">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="section-body-item">
+                <div class="row row-2">
+                  <div class="col-md-3">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="col-md-9">
+                    <h4>Repwa Scouts (Pramuka)</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="section-body-item">
+                <div class="row row-2">
+                  <div class="col-md-3">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="col-md-9">
+                    <h4>Repwa Red Cross Youth (PRM)</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="section-body-item">
+                <div class="row row-2">
+                  <div class="col-md-3">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="col-md-9">
+                    <h4>Science Olympiad</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="section-body-item">
+                <div class="row row-2">
+                  <div class="col-md-3">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="col-md-9">
+                    <h4>Nature Enthusiasts Club</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="section-body-item">
+                <div class="row row-2">
+                  <div class="col-md-3">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="col-md-9">
+                    <h4>Youth Scientific Projects</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="section-body-item">
+                <div class="row row-2">
+                  <div class="col-md-3">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="col-md-9">
+                    <h4>Repwa Scouts (Pramuka)</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tenaga-pendidik">
+      <div class="container">
+        <div class="section-title">
+          <h2>Repwa's  Leaders</h2>
+        </div>
+        <div class="section-body">
+          <div id="slider-tools-1"></div>
+          <div class="owl-carousel" id="tenaga-pendidit-slider">
+            <div class="section-item-slider">
+              <img class="foto-guru" src="assets/img/foto-guru-1.jpg" alt="" />
+              <div class="section-item-caption">
+                <h5>SARNO, s.pd., M.pd</h5>
+                <h6>GURU BAHASA INDONESIA</h6>
+              </div>
+            </div>
+            <div class="section-item-slider">
+              <img class="foto-guru" src="assets/img/foto-guru-2.jpg" alt="" />
+              <div class="section-item-caption">
+                <h5>Dr nassor ali hamza</h5>
+                <h6>BG student at sumait university</h6>
+              </div>
+            </div>
+            <div class="section-item-slider">
+              <img class="foto-guru" src="assets/img/foto-guru-3.jpg" alt="" />
+              <div class="section-item-caption">
+                <h5>Shafour qasim msuya</h5>
+                <h6>BC student at sumait university</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tombol-selengkapnya">
+        <a href="" class="btn btn-more"> Lihat Prestasi Lainnya </a>
+      </div>
+    </section>
+
+    <section id="alumni">
+      <div class="container">
+        <div class="section-title">
+          <h2>Repwa's Distinguished Alumni</h2>
+        </div>
+        <div class="section-body">
+          <div id="slider-tools-2"></div>
+          <div class="owl-carousel" id="alumni-slider">
+            <div class="section-item-slider">
+              <div class="row">
+                <div class="col-md-5">
+                  <img
+                    class="foto-alumni"
+                    src="assets/img/bu-susi-p.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="col-md-7">
+                  <div class="section-item-content">
+                    <a href="#"><h3>Dr. John K. Mwakyusa</h3></a>
+                    <p>
+                      A visionary leader and technologist, Dr. John K. Mwakyusa is a distinguished Repwa alumnus, contributing to advancements in technology and innovation.
+                      is a distinguished Repwa alumnus, contributing to advancements in technology and innovation.
+                    </p>
+                    <a href="#" class="more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-item-slider">
+              <div class="row">
+                <div class="col-md-5">
+                  <img
+                    class="foto-alumni"
+                    src="assets/img/prof-dwikorita.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="col-md-7">
+                  <div class="section-item-content">
+                    <a href="#"><h3>Dr. Grace A. Mahenge</h3></a>
+                    <p>
+                      Renowned in the field of healthcare, Dr. Grace A. Mahenge, a Repwa alumna, is making significant contributions to medical research and public health.
+                      is making significant contributions to medical research and public health.
+                    </p>
+                    <a href="#" class="more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tenaga-pendidik">
+      <div class="container">
+        <div class="section-title">
+          <h2>Repwa's Gallery</h2>
+        </div>
+        <div class="section-body">
+          <div id="slider-tools-3"></div>
+          <div class="owl-carousel" id="galeri-slider">
+            <div class="section-item-slider">
+              <img class="foto-guru" src="assets/img/galeri-1.jpg" alt="" />
+              <div class="section-item-caption">
+                <a href="#"><h5>Product Launch Event</h5></a>
+                <a href="#"><h6>Repwa Headquarters, Dar es Salaam</h6></a>
+              </div>
+            </div>
+            <div class="section-item-slider">
+              <img class="foto-guru" src="assets/img/foto-guru-2.jpg" alt="" />
+              <div class="section-item-caption">
+                <a href="#"><h5>Community Outreach Program</h5></a>
+                <a href="#"><h6>Empowering Local Communities</h6></a>
+              </div>
+            </div>
+            <div class="section-item-slider">
+              <img class="foto-guru" src="assets/img/foto-guru-3.jpg" alt="" />
+              <div class="section-item-caption">
+                <a href="#"><h5>Technology Workshop</h5></a>
+                <a href="#"><h6>Building Skills for the Future</h6></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="tombol-selengkapnya">
+        <a href="" class="btn btn-more"> Lihat Prestasi Lainnya </a>
+      </div>
+    </section>
+
+    <section id="berita">
+      <div class="container">
+        <div class="section-title">
+          <h2>Latest News</h2>
+        </div>
+        <div class="section-body">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="section-thumbnail">
+                <a href=""><img src="assets/img/galeri-2.jpeg" alt="" /></a>
+                <div class="tangal">
+                  <span class="tgl">14</span>
+                  <span class="tgl-2">oktober 2019</span>
+                </div>
+              </div>
+              <div class="section-content ">
+                <a href="#">
+                  <h3>Empowering Communities: Repwa's Social Initiatives</h3>
+                </a>
+                <p>
+                  Explore how Repwa General Tanzania Limited contributes to social causes, making a positive impact on communities. <a href="#" class="more">Read More</a>
+                </p>
+              </div>
+              <div class="section-meta">
+                <a href="#">Category: Community</a>
+                <a href="#"><i class="fas fa-user"></i> Repwa Team</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="section-thumbnail">
+                <a href=""><img src="assets/img/galeri-2.jpeg" alt="" /></a>
+                <div class="tangal">
+                  <span class="tgl">14</span>
+                  <span class="tgl-2">oktober 2019</span>
+                </div>
+              </div>
+              <div class="section-content">
+                <a href="#">
+                  <h3>Unveiling Repwa's Cutting-edge Technology Solutions</h3>
+                </a>
+                <p>
+                  Learn about Repwa's latest technological advancements and how they are shaping the future. <a href="#" class="more">Read More</a>
+                </p>
+              </div>
+              <div class="section-meta">
+                <a href="#">Category: Technology</a>
+                <a href="#"><i class="fas fa-user"></i> Tech Insights</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="section-thumbnail">
+                <a href=""><img src="assets/img/galeri-2.jpeg" alt="" /></a>
+                <div class="tangal">
+                  <span class="tgl">14</span>
+                  <span class="tgl-2">oktober 2019</span>
+                </div>
+              </div>
+              <div class="section-content">
+                <a href="#">
+                  <h3>Empowering Education: Repwa's Collaboration with Schools</h3>
+                </a>
+                <p>
+                  Discover how Repwa is making a difference in education through strategic collaborations with schools. <a href="#" class="more">Read More</a>
+                </p>
+              </div>
+              <div class="section-meta">
+                <a href="#">Category: Education</a>
+                <a href="#"><i class="fas fa-user"></i> Education Outreach</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="section-thumbnail">
+                <a href=""><img src="assets/img/galeri-2.jpeg" alt="" /></a>
+                <div class="tangal">
+                  <span class="tgl">14</span>
+                  <span class="tgl-2">oktober 2019</span>
+                </div>
+              </div>
+              <div class="section-content">
+                <a href="#">
+                  <h3>Innovation Spotlight: Repwa's Latest Product Launch</h3>
+                </a>
+                <p>
+                  Explore the cutting-edge product launched by Repwa, setting new standards in innovation. <a href="#" class="more">Read More</a>
+                </p>
+              </div>
+              <div class="section-meta">
+                <a href="#">Category: Innovation</a>
+                <a href="#"><i class="fas fa-user"></i> Product Development</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="section-thumbnail">
+                <a href=""><img src="assets/img/galeri-2.jpeg" alt="" /></a>
+                <div class="tangal">
+                  <span class="tgl">14</span>
+                  <span class="tgl-2">oktober 2019</span>
+                </div>
+              </div>
+              <div class="section-content">
+                <a href="#">
+                  <h3>Empowering Entrepreneurs: Repwa's Business Development Program</h3>
+                </a>
+                <p>
+                  Learn how Repwa is fostering entrepreneurship through its innovative business development initiatives. <a href="#" class="more">Read More</a>
+                </p>
+    
+              </div>
+              <div class="section-meta">
+                <a href="#">Category: Business</a>
+                <a href="#"><i class="fas fa-user"></i> Business Growth</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="section-thumbnail">
+                <a href=""><img src="assets/img/galeri-2.jpeg" alt="" /></a>
+                <div class="tangal">
+                  <span class="tgl">14</span>
+                  <span class="tgl-2">oktober 2019</span>
+                </div>
+              </div>
+              <div class="section-content mb-2">
+                <a href="#">
+                  <h3>Repwa's Commitment to Environmental Sustainability</h3>
+                </a>
+                <p>
+                  Discover Repwa's initiatives towards a sustainable future and environmental conservation. <a href="#" class="more">Read More</a>
+                </p>
+    
+              </div>
+              <div class="section-meta">
+                <a href="#">Category: Sustainability</a>
+                <a href="#"><i class="fas fa-user"></i> Environmental Affairs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tombol-selengkapnya">
+          <a href="#" class="btn btn-more">Explore More News</a>
+        </div>
+      </div>
+    </section>
+
     <footer>
       <div class="container">
         <div class="row">
           <div class="col-md-5">
             <div class="footer-col">
               <div class="brand">
-                <img src="assets/img/logo-toga.png" alt="logo">
-                <h1>
-                  SMA Negeri 404
-                </h1>
-              </div> 
-                <p class="tentang">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                   Magni pariatur quas temporibus quaerat nam,
-                    atque architecto odio quae ipsam, placeat
-                     adipisci necessitatibus vel tenetur
-                      distinctio optio rerum! Possimus, 
-                      autem, unde soluta expedita animi
-                       molestias laboriosam ab 
-                       necessitatibus magnam dolorem, 
-                       perspiciatis aliquid sapiente. 
-                       Officia nisi voluptatibus
-                   assumenda deleniti, ipsam explicabo quod.</p>
-                   <ul class="sosmed">
-                    <li><a href=""><i class="fab fa-facebook"></i></a></li>
-                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                    <li><a href=""><i class="fab fa-youtube"></i></a></li>
-                   </ul>
-             
+                <img src="assets/img/RepwaLogo.jpg" alt="Repwa Logo" />
+                <h1>Repwa General Tanzania Limited</h1>
+              </div>
+              <p class="tentang">
+                Explore innovative solutions and services for all your technological needs. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni pariatur quas temporibus quaerat nam, atque architecto odio quae ipsam, placeat adipisci necessitatibus vel tenetur distinctio optio rerum!
+              </p>
+              <ul class="sosmed">
+                <li>
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+              </ul>
             </div>
           </div>
-           <div class="col-md-4">
+          <div class="col-md-4">
             <div class="footer-col">
-               <h1>
-                  Kontak
-                </h1>
-                <p class="alamat">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                   Magni pariatur quas temporibus quaerat nam,
-                    atque architecto odio quae ipsam, placeat
-                     adipisci necessitatibus vel tenetur
-                      distinctio optio rerum! Possimus, 
-                      autem, unde soluta expedita animi
-                       </p>
-                   <ul class="kontak">
-                    <li><a href=""><i class="fas fa-phone"></i>Telp/Fax +255657315955</a></li>
-                    <li><a href=""><i class="fas fa-envelope"></i>mrishohamisi2348@gmail.com</a></li>
-
-                   </ul>
-            
+              <h1>Contact</h1>
+              <p class="alamat">
+                Explore our innovative solutions and services for all your technological needs. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni pariatur quas temporibus quaerat nam, atque architecto odio quae ipsam, placeat adipisci necessitatibus vel tenetur distinctio optio rerum!
+              </p>
+              <ul class="kontak">
+                <li>
+                  <a href="#"><i class="fas fa-phone"></i>Call Us: +255657315955</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-envelope"></i>Email: info@repwa.com</a>
+                </li>
+              </ul>
             </div>
           </div>
-           <div class="col-md-3">
-            <div class="footer-col">           
-                  <h1>
-                  SMA Negeri 404
-                </h1>           
-                   <ul class="footer-nav">
-                    <li><a href="">Profil</a></li>
-                    <li><a href="">Visi dan Misi</a></li>
-                    <li><a href="">Struktur Organisasi</a></li>
-                    <li><a href="">Sumber Daya Manusia</a></li>
-                    <li><a href="">Pendaftar PPDB 2020 <span>Infor</span></a></li>
-                   </ul>
-          
+          <div class="col-md-3">
+            <div class="footer-col">
+              <h1>Quick Links</h1>
+              <ul class="footer-nav">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+                <li>
+                  <a href="#">Careers <span>Join Our Team</span></a>
+                </li>
+              </ul>
             </div>
           </div>
-        </div>      
+        </div>
       </div>
       <div class="footer-copyright">
         <div class="container text-center">
-          <h6>Hak cipta Dilindungi. @ 2019<a href=""> TeamTrainit.com </a></h6>
+          <h6>&copy; Hak cipta Dilindungi. @ 2022 <a href=""> Repwa General Tanzania Limited </a></h6>
         </div>
-    </div>
+      </div>
     </footer>
+    
 
     <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/main.js"></script>
-
-</body>
+  </body>
 </html>

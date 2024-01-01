@@ -49,6 +49,23 @@ header{
     display:flex ;
 }
 
+ @media (max-width: 767px) {
+    .col-md-9,
+    .col-md-3 {
+      width: 100%;
+    }
+
+    .sosmed {
+      justify-content: center;
+    }
+
+    .top-contact li,
+    .sosmed li {
+      display: block;
+      margin-bottom: 10px;
+      color: white;
+    }
+  }
 .brand img {
     margin-right: 10px;
 }
@@ -729,4 +746,8 @@ footer .sosmed li a:hover{
 .footer-copyright h6 a:hover{
  border-bottom: 1px dashed #CECECE;
     
+}
+
+#berita .col-md-4{
+    margin-bottom: 40px;
 }
