@@ -1,5 +1,4 @@
-/* tulis CSS nya sendiri ya, mengikuti seperti dalam video,
-selamat belajar.. ^^ */
+
 
 body{
     font-family:"Montserrat", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -8,6 +7,7 @@ body{
 a,a:hover{
     text-decoration: none;
 }
+
 #topbar{
     background-color: #15477A;
     color: #fff;
@@ -18,6 +18,65 @@ a,a:hover{
     list-style: none;
     padding: 0;
 }
+
+
+/* Navbar styling */
+.navbar {
+    padding: 0;
+    border-bottom: 5px solid #F2C808;
+    color: #fff;
+}
+
+/* Navbar links styling */
+.nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    color: #fff; /* Default color for inactive links */
+}
+
+/* Background color for the navbar */
+.bg-biru {
+    background-color: #15477A !important;
+    color: #fff;
+}
+
+/* Active and focused link styling */
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .show > .nav-link {
+    background-color: #F2C808;
+    color: #fff;
+}
+
+/* Hover effect for navbar links */
+.navbar-dark .navbar-nav .nav-link:hover {
+    background-color: #F2C808;
+    color: #15477A;
+}
+
+/* Active state for the entire list item */
+.active {
+    background-color: #F2C808;
+    color: #15477A;
+}
+
+/* Active state for the link within the list item */
+li.nav-item.active a {
+    color: #15477A;
+}
+
+/* Padding and display for navbar links */
+.navbar-dark .navbar-nav .nav-link {
+    padding: 15px 20px;
+    display: inline-block;
+    color: #fff;
+}
+
+
+
 
 #topbar li
 {
@@ -49,7 +108,7 @@ header{
     display:flex ;
 }
 
- @media (max-width: 767px) {
+ @media screen and (max-width: 767px) {
     .col-md-9,
     .col-md-3 {
       width: 100%;
@@ -66,6 +125,8 @@ header{
       color: white;
     }
   }
+
+
 .brand img {
     margin-right: 10px;
 }
@@ -111,48 +172,6 @@ a.btn.btn-utama:hover{
     color: #fff;
 }
 
-nav{
-    height: 57px;
-}
-.navbar{
-    padding: 0;
- 
-    border-bottom: 5px solid #F2C808;
-}
-
-.nav-link{
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: 0.25px;
-}
-.navbar-dark .navbar-nav  .nav-link{
-    color:#fff ;
-}
-
-.navbar-dark .navbar-nav .active>.nav-link, 
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link.show,
- .navbar-dark .navbar-nav .show>.nav-link {
-    color:#fff ;
-}
-.active{
-    background-color: #F2C808;
-    color: #15477A;
-}
-li.nav-item .active a{
-    color: #15477A;
-}
-
-/* .nav-item {
-    padding:10px 20px;
-    display: inline-block;
-} */
-
-.navbar-dark .navbar-nav .nav-link{
-    padding:16px 20px;
-    display: inline-block;
-}
 
 #hero-area{
     position: relative;
@@ -239,6 +258,7 @@ li.nav-item .active a{
 #prestasi .col-item-kanan{
     padding:20px 30px 20px 20px ;
 }
+
 .section-item-thumbnail{
     max-width: 100%; 
     width: 100%; 
